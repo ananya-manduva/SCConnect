@@ -1,4 +1,4 @@
-# Web Scraper
+# SCConnect
 
 This is a simple Python web scraper to extract contact information (emails, phone numbers, and addresses) from local business websites.
 
