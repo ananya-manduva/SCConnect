@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info Scraper</title>
+</head>
+<body>
+    <h1>Contact Info Scraper</h1>
+    <form method="POST">
+        <label for="url">Enter URL:</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Scrape</button>
+    </form>
+
+    {% if contact_info %}
+        <h2>Results</h2>
+        <pre>{{ contact_info }}</pre>
+    {% endif %}
+</body>
+</html>
